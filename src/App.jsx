@@ -15,6 +15,8 @@ import Heading from './componentes/Heading'
 import Product from './componentes/Product'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
+import PrevArrow from './componentes/PrevArrow'
+import NextArrow from './componentes/NextArrow'
 
 
 
@@ -24,6 +26,8 @@ function App() {
     speed: 500,
     slidesToShow: 4,
     slidesToScroll: 1,
+    prevArrow:<PrevArrow/>,
+    nextArrow:<NextArrow/>,
   };
 
   return (
